@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 1170px;
+  margin: auto;
+}
+
+header {
+  background: url("/home/deepa/MyProject/logo.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  height: 100vh;
+}
+
+.navigation {
+  float: right;
+  margin-top: 30px;
+}
+.navigation li {
+  display: inline-block;
+}
+
+.navigation li a {
+  padding: 5px 20px;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgb(247, 212, 16);
+}
+
+.navigation li a :hover {
+  color: #333;
+  background: rgb(190, 12, 12);
+  text-decoration: underline;
+  opacity: 0.85;
+}
+
+.message {
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  text-align: center;
+  margin: 20% 30%;
+}
+
+.message h2 {
+  text-align: center;
+  color: rgb(23, 37, 240);
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.message h1 {
+  text-align: center;
+  color: rgb(39, 2, 48);
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 20px;
+}
+
+.about-section {
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  margin: 20% 30%;
+}
+
+.about-section h1 {
+  text-align: center;
+}
+
+.about-section p {
+  text-align: left;
+  color: rgb(114, 7, 16);
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 10px;
+}
+
+.contact-section {
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  margin: 20% 30%;
+}
+
+.contact-section h1 {
+  text-align: center;
+}
+
+.contact-section p {
+  text-align: center;
+  color: rgb(114, 7, 16);
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 10px;
+}
