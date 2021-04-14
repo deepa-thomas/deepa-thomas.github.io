@@ -9,7 +9,7 @@
 }
 
 header {
-  background: url("/home/deepa/MyProject/logo.jpg");
+  background: url("logo.jpg");
   background-size: cover;
   background-position: center center;
   position: relative;
